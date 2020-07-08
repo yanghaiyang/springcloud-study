@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class NacosServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(NacosServerApplication.class, args);
     }
 
     @Slf4j
